@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item android:id="@+id/text_size"
+        android:title="字体大小"
+        android:icon="@android:drawable/ic_menu_compass"
+        >
+
+        <menu>
+
+            <item android:id="@+id/text_size_10sp"
+                android:title="10号"
+                />
+            <item android:id="@+id/text_size_16sp"
+                android:title="16号"
+                android:orderInCategory="100"
+                />
+            <item android:id="@+id/text_size_20sp"
+                android:title="20号"
+                android:orderInCategory="100"
+                />
+
+        </menu>
+    </item>
+    <item android:id="@+id/normal_menu_item"
+        android:title="普通菜单项"
+        android:orderInCategory="100"
+        />
+    <item android:id="@+id/text_color"
+        android:title="字体颜色"
+        android:orderInCategory="100"
+        >
+        <menu>
+            <item android:id="@+id/text_color_red"
+                android:title="红色"
+                />
+            <item android:id="@+id/text_color_black"
+                android:title="黑色"
+                android:orderInCategory="100"
+                />
+        </menu>
+
+    </item>
+
+
+</menu>
